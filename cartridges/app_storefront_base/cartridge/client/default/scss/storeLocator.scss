@@ -3,8 +3,7 @@
 @import "bootstrap/scss/mixins/breakpoints";
 @import "storeLocator/storeLocator";
 
-.map-marker {
-    float: left;
+.map-marker {float: left;
     width: 2em;
     height: 2em;
     text-align: center;
@@ -12,11 +11,10 @@
     border-radius: 0.375em;
     color: #fff;
     background-color: $light-blue;
-    position: relative;
+    position: relative
 
-    &::after {
-        position: absolute;
-        bottom: -0.625em;
+    &::after {position: absolute;
+        bottom: -0.625em
         left: 50%;
         transform: translate(-50%, 0);
         content: '';
@@ -84,5 +82,5 @@
         overflow-x: hidden;
         max-height: 21.875em;
         margin-right: -0.938em;
-    }
+
 }
